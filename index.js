@@ -2,11 +2,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const hamburger = document.querySelector(".hamburger");
   const navList = document.querySelector("#nav-list");
-  const emailInput = document.getElementById("email");
-  const contactForm = document.getElementById("contact-form");
-
-  // Regular expression for email validation
-  const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
